@@ -1,0 +1,11 @@
+{
+    "name": "Bookie!"
+  , "version": "0.0.1"
+  , "private": true
+  , "dependencies": {
+      "mongoose": "*",
+      "express": "*"
+    , "stylus": ">= 0.0.1"
+    , "hjs": "*"
+  }
+}

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="nl">
+  <head>
+    <meta charset="utf-8">
+    <title>{{ title }} - Bookie!</title>
+    <meta name="description" content="Bookie! Het huishoudboekje, maar dan nog beter!">
+    <meta name="author" content="Daniel Kloosterman">
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <link rel='stylesheet' href='/support/bootstrap/bootstrap.min.css' />
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <link rel='stylesheet' href='/stylesheets/overrides.css' />
+
+    <!-- Support libraries. -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+    <script src="http://d3js.org/d3.v3.min.js"></script>
+
+    <!-- My code -->
+    <script src="js/kosten.js"></script>
+  </head>
+  <body>
+  
+    <div class="container">
+      <div class="content">
+
+        <div class="page-header">
+          <h1>Bookie! <small>Het huishoudboekje, maar dan nog beter!</small></h1>
+        </div> <!-- /header -->
+        
+        <div class="row">
+
+            <!-- -->
+            <div class="span10">
+                <h2>{{ title }}</h2>
+                <ul class="tabs">
+                  <li class="active"><a href="#">Home</a></li>
+                  <li><a href="#">Inkomsten</a></li>
+                  <li><a href="#">Uitgaven</a></li>
+                  <li><a href="#">Categoriën</a></li>
+                  <li><a href="#">Contracten</a></li>
+                </ul>
+                <div id="chart"></div>
+            </div>
+            
+            <!-- Navigation -->
+            <div class="span4">
+                <h3>Money status</h3>
+            </div>
+        </div>
+        
+      </div> <!-- /content -->
+
+      <footer>
+        <p>&copy; Daniel Kloosterman 2012</p>
+      </footer>
+
+    </div> <!-- /container -->    
+  </body>
+</html>
